@@ -12,6 +12,7 @@ nav{
     float: right;
     width: 270px;
     color: #777;
+    margin: 25px;
 }
 
 header{ 
@@ -24,24 +25,19 @@ header{
     height: 77px;
 }
 
+a{
+    text-align: center;
+    clear: both;
+    color: rgb(193, 193, 193);
+}
 
 h1{
-    margin-top: 0px;
     color: rgb(255, 255, 255);
     width: 325px;
     background-color: rgb(61, 156, 148);
     padding: 25px;
     text-align: center;
     font-size: 45px;    
-}
-
-.pic-text{
-    position: relative;
-}
-
-a{
-    clear: both;
-    color: rgb(193, 193, 193);
 }
 
 li {
@@ -56,14 +52,16 @@ h2{
 footer {
     color: rgb(193, 193, 193);
     text-align: center;
-    clear: both;
     background-color: #777;
     border-top: 5px solid rgb(61, 156, 148);
-    height: 75px;
+    height: 60px;
     width: 100%;
     position: fixed;
     bottom: 0;
-    margin-top: -200;
+}
+
+h4 {
+    margin-top: 15px;
 }
 
 .container {
@@ -76,10 +74,6 @@ footer {
     color:  #777;
     padding: 10px 15px 0 15px;
     border: 1px solid rgb(193, 193, 193);    
-}
-
-#message {
-    height: 200px;
 }
 
 #submit{
@@ -102,71 +96,19 @@ footer {
     height: 200px;
 }
 
-#text1{
-    position: absolute;
-    top: 30%;
-    left: 28.2%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-    width: 260px;
-    background-color: rgb(61, 156, 148);
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
-}
-
-#text2{
-    position: absolute;
-    top: 30%;
-    left: 49.2%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-    width: 260px;
-    background-color: rgb(61, 156, 148);
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
-}
-
-#text3{
+h3{
     position: absolute;
     top: 57%;
-    left: 28.2%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
+    left: 3.5%;
+    overflow: auto;
     width: 260px;
-    background-color: rgb(61, 156, 148);
     padding: 10px;
-    text-align: center;
     font-size: 30px;
-}
-
-
-#text4{
-    position: absolute;
-    top: 57%;
-    left: 49.2%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(61, 156, 148);
     color: rgb(255, 255, 255);
-    width: 260px;
-    background-color: rgb(61, 156, 148);
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
-}
+    float: left;
 
-
-#text5{
-    position: absolute;
-    top: 83%;
-    left: 28.2%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-    width: 260px;
-    background-color: rgb(61, 156, 148);
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
 }
 
 #main {
@@ -202,7 +144,9 @@ aside {
     border-left: thin solid rgb(193, 193, 193);
     display: inline;
     margin: 5px;
+    padding-left: 5px;
   }
+
 
 .row {
     margin: 8px -16px;
@@ -225,6 +169,7 @@ aside {
 }
 
 .content {
+    position: relative;
     background-color: white;
     padding: 10px;
 }
